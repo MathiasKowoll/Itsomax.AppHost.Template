@@ -1,0 +1,12 @@
+{
+    "author": "Mathias Kowoll",
+    "classifications": [ "Web" ],
+    "name": "IT-SOMAX Host Application",
+    "identity": "Itsomax.AppHost",        
+    "shortName": "itsomaxhostapp",       
+    "groupIdentity":"Itsomax.AppHost.Sample",          
+    "tags": {
+        "language": "C#",
+        "type" : "project"                      
+    },  
+}

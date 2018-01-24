@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <EnableDefaultContentItems>false</EnableDefaultContentItems>
+    <MvcRazorCompileOnPublish>false</MvcRazorCompileOnPublish>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Mathias Kowoll</Authors>
+    <Company>IT-SOMAX</Company>
+    <Description>Web controller for itsomax applications</Description>
+    <Copyright>Mathias Kowoll, IT-SOMAX @2018</Copyright>
+    <PackageLicenseUrl>https://github.com/MathiasKowoll/Itsomax.AppHost/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>www.itsomax.com</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MathiasKowoll/Itsomax.AppHost</RepositoryUrl>
+    <PackageReleaseNotes>Initial Push</PackageReleaseNotes>
+  </PropertyGroup>
+  
+  <ItemGroup>
+
+    <Content Include="wwwroot\**\*;web.config;appsettings.json;Modules\**\*;Views\**\*">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  
+ 
+  <ItemGroup>
+    <PackageReference Update="Microsoft.NETCore.App" Version="2.0.5" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="2.0.2" />
+    <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0" />
+    <PackageReference Include="MediatR" Version="4.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.1" PrivateAssets="All" />
+    <PackageReference Include="Itsomax.Data.Infrastructure" Version="1.0.4" />
+    <PackageReference Include="Itsomax.Module.Core" Version="1.0.8" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.1" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+    <Folder Include="Modules\" />
+  </ItemGroup>
+
+</Project>
