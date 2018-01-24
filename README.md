@@ -17,3 +17,7 @@ The application itself will create the database once the initial catalog has bee
 3. Execute: dotnet run
 4. Navigate to http://localhost:63097/
 5. Default user is admin and Default Password is Admin123.,
+
+# Considarations.
+
+Right know the admin template use the theme AdminPro Dashboardm from https://wrappixel.com please consider buy it if you like it or use your own. You are commited to delete the www folder if not buying.
