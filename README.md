@@ -14,7 +14,7 @@ The application itself will create the database once the initial catalog has bee
 
 1. The installation script assumes that you have node installed and working.
 2. Install template: dotnet new -i Itsomax.AppHost
-3. create new project using dotnet tools. dotnet new itsomaxhostapp -o "Project Folder" Ex: dotnet new itsomaxhostapp -o NewProoject
+3. Create new project using dotnet tools. dotnet new itsomaxhostapp -o "Project Folder" Ex: dotnet new itsomaxhostapp -o NewProject
 4. Using cmd go to root folder and execute createProject.bat "name of the project". This will create and restore all dependencies. Ex: createProject myNewProject.
 5. Execute: dotnet run
 6. Navigate to http://localhost:63097/
