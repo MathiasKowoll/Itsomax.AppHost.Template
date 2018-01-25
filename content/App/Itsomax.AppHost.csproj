@@ -4,7 +4,6 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <EnableDefaultContentItems>false</EnableDefaultContentItems>
     <MvcRazorCompileOnPublish>false</MvcRazorCompileOnPublish>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Mathias Kowoll</Authors>
     <Company>IT-SOMAX</Company>
     <Description>Web controller for itsomax applications</Description>
@@ -17,7 +16,7 @@
   
   <ItemGroup>
 
-    <Content Include="wwwroot\**\*;web.config;appsettings.json;Modules\**\*;Views\**\*">
+    <Content Include="wwwroot\**\*;appsettings.json;hosting.json;Modules\**\*;Views\**\*">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
   </ItemGroup>
@@ -32,7 +31,7 @@
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.1" PrivateAssets="All" />
     <PackageReference Include="Itsomax.Data.Infrastructure" Version="1.0.4" />
-    <PackageReference Include="Itsomax.Module.Core" Version="1.0.8" />
+    <PackageReference Include="Itsomax.Module.Core" Version="1.0.9" />
 
   </ItemGroup>
 

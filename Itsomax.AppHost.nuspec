@@ -10,7 +10,7 @@
     <packageTypes>
       <packageType name="Template" />
     </packageTypes>
-    <releaseNotes>Update nuget package, remove unnecessary files</releaseNotes>
+    <releaseNotes>Update nuget package, remove unnecessary files, add custom port and url</releaseNotes>
     <projectUrl>https://github.com/MathiasKowoll/Itsomax.AppHost.Template</projectUrl>
     <licenseUrl>https://github.com/MathiasKowoll/Itsomax.AppHost.Template/blob/master/LICENSE</licenseUrl>
   </metadata>
