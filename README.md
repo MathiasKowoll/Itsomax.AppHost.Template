@@ -17,8 +17,12 @@ The application itself will create the database once the initial catalog has bee
 3. Create new project using dotnet tools. dotnet new itsomaxhostapp -o "Project Folder" Ex: dotnet new itsomaxhostapp -o NewProject
 4. Using cmd go to root folder and execute createProject.bat "name of the project". This will create and restore all dependencies. Ex: createProject myNewProject.
 5. Execute: dotnet run
-6. Navigate to http://localhost:63097/
+6. Navigate to http://localhost:8080/ the port can be change in hosting.json.
 7. Default user is admin and Default Password is Admin123.,
+
+# Update
+
+1. To install new update use dotnet new -i Itsomax.AppHost::*
 
 # Considarations.
 
