@@ -95,7 +95,7 @@ namespace Itsomax.AppHost
             app.UseCustomizedStaticFiles(env);
             app.UseCustomizedIdentity();
             app.UseCustomizedMvc(Configuration);
-            SeedInitialdata.CreateDB(app.ApplicationServices).Wait();
+            SeedInitialdata.CreateDb(app.ApplicationServices).Wait();
 
             var configDb = configuration.GetSection("UseConnection:DefaultConnection").Value;
 
