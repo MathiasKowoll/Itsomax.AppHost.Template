@@ -4,6 +4,10 @@ set filename=%1
 
 IF %1.==. set filename=NewSolution 
 
+mkdir Modules
+mkdir Solution
+mkdir Libraries
+
 set modDir=Modules
 set appDir=App
 set solDir=Solution
