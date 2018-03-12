@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Itsomax.AppHost</id>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <description>
       Creates Itsomax App control template.
     </description>
@@ -10,7 +10,7 @@
     <packageTypes>
       <packageType name="Template" />
     </packageTypes>
-    <releaseNotes>Fix 2 not creating folders</releaseNotes>
+    <releaseNotes>Update to latest admin pro</releaseNotes>
     <projectUrl>https://github.com/MathiasKowoll/Itsomax.AppHost.Template</projectUrl>
     <licenseUrl>https://github.com/MathiasKowoll/Itsomax.AppHost.Template/blob/master/LICENSE</licenseUrl>
   </metadata>
